@@ -3,7 +3,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import ReactLenis from "lenis/react";
 import { useContext, useState } from "react";
-import soc from "./components/Social_History"
+import Soc from "./components/Social_History"
 import Am from "./components/2am";
 import About from "./components/About";
 import Dune from "./components/Dune";
