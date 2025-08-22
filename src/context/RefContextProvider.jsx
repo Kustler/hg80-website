@@ -4,6 +4,7 @@ import RefContext from "./RefContext";
 const RefContextProvider = ({ children }) => {
 	const aboutRef = useRef();
 	const worksRef = useRef();
+	const socRef = useRef();
 	const amRef = useRef();
 	const nobodyRef = useRef();
 	const duneRef = useRef();
@@ -14,6 +15,7 @@ const RefContextProvider = ({ children }) => {
 			value={{
 				aboutRef,
 				worksRef,
+				socRef,
 				amRef,
 				nobodyRef,
 				duneRef,
