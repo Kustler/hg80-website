@@ -48,7 +48,7 @@ const Soc = () => {
 				<div className="soc-animate h-full xl:relative xl:min-h-[55vh] xl:w-[60%]">
 					<iframe
 						className="h-full w-full rounded-md min-h-64 sm:min-h-96 xl:absolute"
-						src="https://www.youtube.com/embed/bePg-L-7h3c?si=VRWhqgXZ823oMdkA?modestbranding=1&rel=0"
+						src="https://www.youtube.com/embed/2rxE5qsWcI0?si=vxetnyPtFuPM5gAT"
 						title="YouTube video player"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 						referrerPolicy="strict-origin-when-cross-origin"
