@@ -57,8 +57,9 @@ const Soc = () => {
 				</div>
 				<div className="helvetica soc-animate flex flex-col items-start gap-7 text-white xl:w-[40%]">
 					<p>
-					These are some images from the latest project I contributed to: Social Hisory, a documentary series that explores the Italian digital scene and the stories of those who began their careers on YouTube in the early 2000s. The series is available on RAI Play, the online platform of Italy’s national broadcaster, and recieved significant attention, remaining on the Top Ten Most Watched for three consecutive weeks.
-					Within the production team, I was responsible for location sound recording as well as post-production audio work, including mixing in 2.0 for television's audio systems, and 5.1 for dolby surround, sound design and dialogues cleaning.
+					These are some images from the latest project I contributed to: Social Hisory, a documentary series that explores the Italian digital scene and the stories of those who began their careers on YouTube in the early 2000s. 
+						<p>The series is available on RAI Play, the online platform of Italy’s national broadcaster, and recieved significant attention, remaining on the Top Ten Most Watched for three consecutive weeks.
+					Within the production team, I was responsible for location sound recording as well as post-production audio work, including mixing in 2.0 for television's audio systems, and 5.1 for dolby surround, sound design and dialogues cleaning. </p>
 					</p>
 				</div>
 			</div>
