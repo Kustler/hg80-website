@@ -3,7 +3,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import ReactLenis from "lenis/react";
 import { useContext, useState } from "react";
-import Soc from "./components/Social_History";
+import Soc from "./components/SocialHistory";
 import Am from "./components/2am";
 import About from "./components/About";
 import Dune from "./components/Dune";
@@ -69,6 +69,7 @@ const App = () => {
 					<div className="relative z-10 h-full w-full overflow-y-hidden max-lg:pb-20">
 						<About />
 						<Works />
+						<Soc />
 						<Am />
 						<Nobody />
 						<Dune />
