@@ -39,7 +39,7 @@ const Season = () => {
 					Season
 				</h2>
 				<div className="helvetica flex items-center justify-between gap-2">
-					<p className="season-animate">4/4</p>{" "}
+					<p className="season-animate">5/5</p>{" "}
 					<p className="season-animate">From Scavanger Studio</p>
 				</div>
 			</div>

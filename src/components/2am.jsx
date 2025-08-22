@@ -5,7 +5,7 @@ import RefContext from "../context/RefContext";
 import Triangle from "./Icons/Triangle";
 
 const Am = () => {
-	const { amRef, nobodyRef } = useContext(RefContext);
+	const { amRef, socRef } = useContext(RefContext);
 
 	useGSAP(
 		() => {
@@ -40,7 +40,7 @@ const Am = () => {
 					2 am coffee
 				</h2>
 				<div className="helvetica flex items-center justify-between gap-2">
-					<p className="am-animate">1/4</p>{" "}
+					<p className="am-animate">2/5</p>{" "}
 					<p className="am-animate">directed by Ayush Karki</p>
 				</div>
 			</div>
@@ -68,7 +68,7 @@ const Am = () => {
 			<div className="flex w-full items-center justify-center">
 				<button
 					onClick={() =>
-						nobodyRef.current.scrollIntoView({ behavior: "smooth" })
+						socRef.current.scrollIntoView({ behavior: "smooth" })
 					}
 					className="animate-bounce"
 				>

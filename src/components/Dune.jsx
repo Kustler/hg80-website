@@ -40,7 +40,7 @@ const Dune = () => {
 					Dune Awakening
 				</h2>
 				<div className="helvetica flex items-center justify-between gap-2">
-					<p className="dune-animate">3/4</p>{" "}
+					<p className="dune-animate">4/5</p>{" "}
 					<p className="dune-animate">From a project of Funcom</p>
 				</div>
 			</div>
