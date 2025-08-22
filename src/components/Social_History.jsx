@@ -5,7 +5,7 @@ import RefContext from "../context/RefContext";
 import Triangle from "./Icons/Triangle";
 
 const Soc = () => {
-	const { socRef, nobodyRef } = useContext(RefContext);
+	const { socRef, amRef } = useContext(RefContext);
 
 	useGSAP(
 		() => {
