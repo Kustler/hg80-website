@@ -10,7 +10,7 @@ const Soc = () => {
 	useGSAP(
 		() => {
 			gsap.fromTo(
-				".am-animate",
+				".soc-animate",
 				{ opacity: 0, y: 100 },
 				{
 					opacity: 1,
@@ -65,7 +65,7 @@ const Soc = () => {
 			<div className="flex w-full items-center justify-center">
 				<button
 					onClick={() =>
-						nobodyRef.current.scrollIntoView({ behavior: "smooth" })
+						amRef.current.scrollIntoView({ behavior: "smooth" })
 					}
 					className="animate-bounce"
 				>
@@ -76,4 +76,4 @@ const Soc = () => {
 	);
 };
 
-export default memo(Am);
+export default memo(Soc);

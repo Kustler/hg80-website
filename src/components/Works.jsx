@@ -55,7 +55,7 @@ const Works = () => {
 			</div>
 			<div className="works-animate flex w-full items-center justify-center">
 				<button
-					onClick={() => amRef.current.scrollIntoView({ behavior: "smooth" })}
+					onClick={() => socRef.current.scrollIntoView({ behavior: "smooth" })}
 					className="animate-bounce"
 				>
 					<Triangle />
