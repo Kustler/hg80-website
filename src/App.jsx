@@ -69,7 +69,6 @@ const App = () => {
 					<div className="relative z-10 h-full w-full overflow-y-hidden max-lg:pb-20">
 						<About />
 						<Works />
-						<Soc />
 						<Am />
 						<Nobody />
 						<Dune />
