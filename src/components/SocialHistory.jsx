@@ -35,17 +35,17 @@ const Soc = () => {
 			ref={socRef}
 			className="mx-auto flex max-w-screen-2xl flex-col justify-between gap-10 px-4 pb-2 pt-10 lg:gap-16 lg:pt-16 xl:min-h-screen xl:px-16 xl:pt-0"
 		>
-			<div className="am-animate w-fit space-y-2 text-white">
+			<div className="soc-animate w-fit space-y-2 text-white">
 				<h2 className="ohno text-6xl font-bold text-white lg:text-9xl">
 					Social History
 				</h2>
 				<div className="helvetica flex items-center justify-between gap-2">
-					<p className="am-animate">1/5</p>{" "}
-					<p className="am-animate">directed by Gaetano Cunzio</p>
+					<p className="soc-animate">1/5</p>{" "}
+					<p className="soc-animate">directed by Gaetano Cunzio</p>
 				</div>
 			</div>
 			<div className="flex flex-col gap-10 xl:flex-row xl:items-center xl:justify-center">
-				<div className="am-animate h-full xl:relative xl:min-h-[55vh] xl:w-[60%]">
+				<div className="soc-animate h-full xl:relative xl:min-h-[55vh] xl:w-[60%]">
 					<iframe
 						className="h-full w-full rounded-md min-h-64 sm:min-h-96 xl:absolute"
 						src="https://www.youtube.com/embed/bePg-L-7h3c?si=VRWhqgXZ823oMdkA?modestbranding=1&rel=0"
@@ -55,7 +55,7 @@ const Soc = () => {
 						allowFullScreen
 					></iframe>
 				</div>
-				<div className="helvetica am-animate flex flex-col items-start gap-7 text-white xl:w-[40%]">
+				<div className="helvetica soc-animate flex flex-col items-start gap-7 text-white xl:w-[40%]">
 					<p>
 					These are some images from the latest project I contributed to: Social Hisory, a documentary series that explores the Italian digital scene and the stories of those who began their careers on YouTube in the early 2000s. The series is available on RAI Play, the online platform of Italy’s national broadcaster, and recieved significant attention, remaining on the Top Ten Most Watched for three consecutive weeks.
 					Within the production team, I was responsible for location sound recording as well as post-production audio work, including mixing in 2.0 for television's audio systems, and 5.1 for dolby surround, sound design and dialogues cleaning.
